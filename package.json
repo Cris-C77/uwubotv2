@@ -1,7 +1,7 @@
 {
 "name": "UwUsBot-MD",
 "version": "2.0.0",
-"description": "Super WhatsApp Bot Multi Device",
+"description": "Bot wachap",
 "main": "index.js",
 "type": "module",
 "directories": {
@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/JoseXrl15k/Nino-Nakano",
+"homepage": "https://github.com/Cris-C77",
 "author": {
-"name": "LALIN09"
+"name": "LALIN69"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/JoseXrl15k/Nino-Nakano.git"
+"url": "https://github.com/Cris-C77"
 },
 "bugs": {
-"url": "https://github.com/JoseXrl15k/Nino-Nakano/issues"
+"url": "https://github.com/Cris-C77"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
