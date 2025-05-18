@@ -11,7 +11,7 @@ import fs, {readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileSy
 import yargs from 'yargs';
 import {spawn} from 'child_process'
 import lodash from 'lodash'
-import { nakanoJadiBot } from './plugins/jadibot-serbot.js';
+import { UwUsBot } from './plugins/uwus-bot.js';
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
 import {tmpdir} from 'os'
@@ -356,24 +356,24 @@ return true
 
 //Arranque nativo para subbots by - ReyEndymion >> https://github.com/ReyEndymion
 
-global.rutaJadiBot = join(__dirname, './JadiBots')
+global.rutaUwUsBot = join(__dirname, './UwUsBots')
 
-if (global.NakanoJadibts) {
-if (!existsSync(global.rutaJadiBot)) {
-mkdirSync(global.rutaJadiBot, { recursive: true }) 
+if (global.uwubots) {
+if (!existsSync(global.rutaUwUsBot)) {
+mkdirSync(global.rutaUwUsBot, { recursive: true }) 
 console.log(chalk.bold.cyan(`La carpeta: ${jadi} se creó correctamente.`))
 } else {
 console.log(chalk.bold.cyan(`La carpeta: ${jadi} ya está creada.`)) 
 }
 
-const readRutaJadiBot = readdirSync(rutaJadiBot)
-if (readRutaJadiBot.length > 0) {
+const readRutaUwUsBot = readdirSync(rutaUwUsBot)
+if (readRutaUwUsBot.length > 0) {
 const creds = 'creds.json'
-for (const gjbts of readRutaJadiBot) {
-const botPath = join(rutaJadiBot, gjbts)
+for (const gjbts of readRutaUwUsBot) {
+const botPath = join(rutaUwUsBot, gjbts)
 const readBotPath = readdirSync(botPath)
 if (readBotPath.includes(creds)) {
-nakanoJadiBot({pathnakanoJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
+nakanoJadiBot({pathnakanoUwUsBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
 }
 }
 }
@@ -471,7 +471,7 @@ try {
 const listaDirectorios = readdirSync(`./${jadi}/`);
 let SBprekey = [];
 listaDirectorios.forEach(directorio => {
-if (statSync(`./${jadi}/${directorio}`).isDirectory()) {
+if (statSync(`./${UwUs}/${directorio}`).isDirectory()) {
 const DSBPreKeys = readdirSync(`./${jadi}/${directorio}`).filter(fileInDir => {
 return fileInDir.startsWith('pre-key-')
 })
@@ -490,7 +490,7 @@ console.log(chalk.bold.red(`\n╭» ❍ ${jadi} ❍\n│→ OCURRIÓ UN ERROR\n�
 }}
 
 function purgeOldFiles() {
-const directories = [`./${sessions}/`, `./${jadi}/`]
+const directories = [`./${sessions}/`, `./${UwUs}/`]
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err
