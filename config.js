@@ -40,8 +40,8 @@ global.vsJB = '5.0'
 global.nameqr = 'UwUsqr'
 global.namebot = 'UwUsBot'
 global.sessions = 'Sessions'
-global.jadi = 'JadiBots' 
-global.NakanoJadibts = true
+global.uwus = 'UwUsBot' 
+global.uwusbot = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -54,7 +54,7 @@ global.textbot = '𝚄𝚠𝚄𝚜 𝙱𝚘𝚝 𝙻𝚊𝚕𝚒𝚗'
 global.etiqueta = '@𝗟𝗮𝗹𝗶𝗻 𝗚𝗮𝗿𝗰𝗶𝗮'
 global.titulowm = 'Whatsapp Multi Device';
 global.titulowm2 = 'Simple Bot WhatsApp'
-global.igfg = '@Lalin09'
+global.igfg = '@Lalin69'
 global.gt = 'ᶜʳᵉᵃᵗᵉᵈ ᴮʸ ᴸᵃˡⁱⁿᴳ';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -67,7 +67,7 @@ global.catalogo = fs.readFileSync('./Private.png');
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.moneda = 'Yenes'
+global.moneda = 'Bolivares'
 global.banner = 'https://i.postimg.cc/c1Mqj0Fr/UwUsbot.jpg'
 global.avatar = 'https://i.postimg.cc/HxwNf94f/Logo-Uw-Usbot.png'
 
@@ -91,19 +91,13 @@ global.cn ='https://wa.me/+50670257898';
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
 ch1: '120363312092804854@newsletter', //𝕃𝕒𝕝𝕚𝕟 𝔾𝕒𝕣𝕔𝕚𝕒
-ch2: '120363312092804854@newsletter', //BrolyBot-MD
-ch3: '120363312092804854@newsletter', //BrolyBot-MD
-ch4: '120363312092804854@newsletter', //BrolyBot-MD
-ch5: '120363312092804854@newsletter', //BrolyBot-MD
-ch6: '120363312092804854@newsletter', //UWU
-ch7: '120363312092804854@newsletter' //UWU
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.MyApiRestBaseUrl = 'https://api.cafirexos.com';
-global.MyApiRestApikey = 'BrunoSobrino';
-global.fgkeysapi = "elrebelde21";
+global.MyApiRestApikey = 'UwUsBot';
+global.fgkeysapi = "uwusbot";
 global.openai_org_id = 'org-3';
 global.openai_key = 'sk-0';
 global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f'];
